@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Periksa Nilai dan Usia</title>
+</head>
+<body>
+
+<script>
+// Program Pemeriksaan Kelulusan
+let grade = Number(prompt("Masukkan nilai:"));
+
+if (grade >= 70) {
+    alert("LULUS");
+} else {
+    alert("GAGAL LULUS");
+}
+
+// Program Kategori Usia
+let age = Number(prompt("Masukkan usia:"));
+
+if (age < 13) {
+    alert("Anak-anak");
+} else if (age >= 13 && age <= 17) {
+    alert("Remaja");
+} else {
+    alert("Dewasa");
+}
+</script>
+
+<!-- JAWABAN PERTANYAAN -->
+<!-- 
+Perbedaan if dan else if:
+- if digunakan untuk memeriksa kondisi pertama.
+- else if digunakan untuk memeriksa kondisi lain jika kondisi sebelumnya salah.
+
+Apa yang terjadi bila semua kondisi salah?
+- Maka bagian else yang dijalankan.
+- Jika tidak ada else, maka tidak ada perintah yang dieksekusi.
+-->
+</body>
+</html>
